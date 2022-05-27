@@ -1,0 +1,36 @@
+*.dll
+*.exe
+.DS_Store
+example.tf
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
+
+# Memo
+*.memo
+
+# backend configuration
+backend.tf
+servers/**/.terraform.lock.hcl
+servers/**/*.json
+servers/**/scripts/vars.sh
+servers/**/install_arc_agent.sh
+servers/**/install_arc_agent.ps1

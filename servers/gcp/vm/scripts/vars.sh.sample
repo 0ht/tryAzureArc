@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# <--- Change the following environment variables according to your Azure service principal and GCP project details --->
+export TF_VAR_subscription_id=AzureサブスクリプションID
+export TF_VAR_client_id=AzureサービスプリンシパルのアプリケーションID
+export TF_VAR_client_secret=Azureサービスプリンシパルのパスワード
+export TF_VAR_tenant_id=AzureテナントID
+export TF_VAR_gcp_project_id=GCPプロジェクトID
+export TF_VAR_gcp_credentials_filename=GCP資格情報ファイル名
